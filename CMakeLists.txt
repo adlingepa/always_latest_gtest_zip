@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.17)
 project(gtest_cmake_auto_dwld)
 
 include(FetchContent)
+include(CTest)
 
 # https://stackoverflow.com/questions/24750215/getting-the-last-commit-hash-from-a-remote-repo-without-cloning
 # https://stackoverflow.com/questions/35689501/cmakes-execute-process-and-arbitrary-shell-scripts
